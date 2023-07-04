@@ -648,7 +648,7 @@ margin-top:254px;
     height: 581px ;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
 }
 
 .svg-cierre{
@@ -659,5 +659,212 @@ margin-top:254px;
 }
 
 .svg-cierre:hover{
-cursor: pointer;    
+cursor: pointer;
+fill: var(--brand-color);   
+
 }
+
+.footer-border{
+    width: 826px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    align-items: baseline;
+      
+}
+
+.form-space{
+    width: 570px;
+    height: auto;
+    
+  }
+  
+  .input-size{
+    width: 358px;
+    height: 50px ;
+    padding: 10px;
+  }
+  
+  .form-btn{
+   height: 50px;
+   width: 200px;
+   background-color:var(--brand-color);
+   color:white;
+   border-radius: 4px;
+   padding: 0;
+   margin:0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+  
+  }
+
+  .susc-text{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    
+
+  }
+  
+.label-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    
+.form-btn:hover{
+    cursor: pointer;
+}
+
+.signup_form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.self-pos{
+    align-self: flex-end;
+}
+
+.head-form{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0.03em;
+text-align: center;
+color: rgba(33, 33, 33, 1);
+margin-bottom: 12px;
+}
+
+.labels-form{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.01em;
+text-align: left;
+color: rgba(117, 117, 117, 1);
+padding-top: 10px;
+padding-bottom: 4px;
+}
+
+.signup_form-input{
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    display: block;
+    padding-left:42px ;
+}
+
+.textarea-width{
+    width: 448px;
+    height: 120px;
+    padding: 16px 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+}
+
+.enviar-btn{
+background-color: var(--brand-color);
+color: #FFFFFF;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+border: none;
+border-radius: 4px;
+width: 200px;
+height: 50px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.enviar-btn:hover{
+    cursor:pointer;
+    }
+
+input:hover{
+cursor: pointer;
+}
+
+textarea:hover{
+    cursor:pointer;
+}
+
+.signup_form-input:focus, textarea:focus,  .signup_form-input:hover, textarea:hover{
+    border: 1px solid var(--brand-color);
+    outline: none;
+}
+
+.signup_form-input:focus + .svg-form,
+.signup_form-input:hover + .svg-form
+{
+    fill: #2196F3;
+}
+
+.svg-form{
+    position: absolute;
+    top: 40px;
+    left:12px;
+    fill: #212121;
+}
+
+.input-container-div{
+    position: relative;
+}
+
+.send-text-style{
+    color: #757575;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    padding-left:77px;
+    padding-right: 51px;
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+
+.checkbox-container{
+    position:relative;
+}
+.svg-check{
+position:absolute;
+top:25px;
+left: 54px;
+
+}
+
+.svg-check2{
+    position:absolute;
+    top: 25px;
+    left:54px;
+}
+
+#sobreponer {
+    display: none;
+  }
+  
+.svg-show {
+    visibility: collapse;
+   }
+  
+#sobreponer:checked ~ * .svg-show {
+    visibility: visible;
+}
+  
