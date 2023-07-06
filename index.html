@@ -57,60 +57,40 @@
                   
                   <form name="signup_form" autocomplete="on" novalidate>
                         <div class="signup_form-container">
-                          <p class="head-form">Deje sus datos, nos contactaremos con usted</p>
-                        <label for="user-name">
-                          <div class="input-container-div">
-                              <p class="labels-form">Nombre</p>
+                            <p class="head-form">Deje sus datos, nos contactaremos con usted</p>
+                          <label for="user-name">Nombre
                               <input class="signup_form-input" type="name" name="firstName" id="user-name"/>
                               <svg class="svg-form" width="18" height="18">
                                   <use href="./images/icons.svg#person"></use>
                               </svg>
-                          </div>
-                        </label>
+                          </label>
 
-                        <label for="user-phone">
-                          <div class="input-container-div">
-                              <p class="labels-form">Telefono</p>
+                          <label for="user-phone">Telefono
                               <input class="signup_form-input" type="tel" name="phone" id="user-phone" />
                               <svg class="svg-form" width="18" height="18">
                                 <use href="./images/icons.svg#telephone"></use>
                               </svg>
-                          </div>
-                        </label>
-                        <label for="user-email">
-                          <div class="input-container-div">
-                                <p class="labels-form">Email</p>
+                          </label>
+                        
+                         <label for="user-email">Email
                                 <input class="signup_form-input" type="email" name="email" id="user-email"/>
                                 <svg class="svg-form" width="18" height="18">
                                   <use href="./images/icons.svg#emailf"></use>
                                 </svg>
-                          </div>
-                        </label>
-                        <label>
-                          <p class="labels-form">Comentarios</p>
-                          <textarea class="textarea-width" name="feedback" rows="5" placeholder="Introduzca el texto"></textarea>
-                        </label>
+                          </label>
+                          <label>Comentarios
+                              <textarea class="textarea-width" name="feedback" rows="5" placeholder="Introduzca el texto"></textarea>
+                          </label>
                         
-                        <div class="checkbox-container">
-                          <p class="send-text-style">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
-                          <input type="checkbox" id="sobreponer">
-                          <label for="sobreponer">
-                          <div>
-                            <svg class="svg-check" width="16" height="15">
-                              <use href="./images/icons.svg#square"></use>
-                            </svg>
-                          </div>
-                            <div class="svg-show">
-                              <svg class="svg-check2" width="16" height="15" id="svgshow">
-                                <use href="./images/icons.svg#check"></use>
-                              </svg>
+                            <div class="checkbox-container">
+                              <input id="checkbox" type="checkbox" class="checkbox-input hidden">
+                              <label for="checkbox" class="checkbox-label">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+                              </label>
                             </div>
-                          
-                        </label>
+                      
+                          <button class="enviar-btn" type="submit">Enviar</button>
                         </div>
-                        <button class="enviar-btn" type="submit">Enviar</button>
-                      </div>
-                      </form>               
+                   </form>               
                       
                 </div>
               </div>
